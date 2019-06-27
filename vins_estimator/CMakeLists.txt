@@ -18,7 +18,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 find_package(OpenCV 4 REQUIRED)
 
-message(WARNING "OpenCV_VERSION: ${OpenCV_VERSION}")
+message(INFO "OpenCV_VERSION: ${OpenCV_VERSION}")
 
 find_package(Ceres REQUIRED)
 
